@@ -1,5 +1,5 @@
 ## Personal vim dir
 
-My config files and my plugins for vim editor.
+My config files and plugins for vim editor.
 
 
