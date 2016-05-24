@@ -35,9 +35,9 @@ map <C-F7> :ConqueTermVSplit ipython <CR>
 map <C-F9> :ConqueTermVSplit R <CR>
 "
 " Some shortcuts for python
-imap <silent> <leader>m <Esc>Vy<C-w><C-w>p <Esc> <C-w>k 
-nmap <silent> <leader>m Vy<C-w><C-w>p <Esc> <C-w>k 
-vmap <silent> <leader>m y<C-w><C-w>p <Esc> <C-w>k 
+imap <silent> <leader>m <Esc>Vy<C-w><C-w> <Esc> p
+nmap <silent> <leader>m Vy<C-w><C-w> <Esc> p 
+vmap <silent> <leader>m y<C-w><C-w> <Esc> p 
 
 " Close every window and save
 nmap <silent> <leader>ss :wqall <CR>
@@ -60,6 +60,10 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
+
+" Opening .vimrc easily
+nnoremap <C-S><leader>o vim ~/.vimrc
+
 
 "Configure Vundle
 set nocompatible
