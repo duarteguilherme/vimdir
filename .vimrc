@@ -62,11 +62,11 @@ nnoremap j gj
 nnoremap k gk
 
 " Opening .vimrc easily
-nnoremap <C-m>mm vim ~/.vimrc
+nnoremap <C-m>mm :sp ~/.vimrc <CR>
 
 " Commands for helping using r
-imap <C-o>libra library(dplyr)<CR>library(tidyr)<CR>library(readr)<CR>library(ggplot2)<CR>
-imap <C-o>paste `%p%` <- function(e1,e2) {<CR>    return(paste0(e1,e2))<CR>}<CR>
+imap !libra library(dplyr)<CR>library(tidyr)<CR>library(readr)<CR>library(ggplot2)<CR>
+imap !paste `%p%` <- function(e1,e2) {<CR>    return(paste0(e1,e2))<CR>}<CR>
 
 "Configure Vundle
 set nocompatible
