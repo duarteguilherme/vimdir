@@ -75,7 +75,7 @@ call vundle#begin()
 "need this to install Vundle
 Plugin 'gmarik/Vundle.vim'
 "        " ---- Plugins ----
-Plugin 'Conque-Shell'
+Plugin 'https://github.com/lrvick/Conque-Shell/'
 Plugin 'https://github.com/scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'https://github.com/davidhalter/jedi-vim'
