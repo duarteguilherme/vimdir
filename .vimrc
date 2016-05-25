@@ -46,6 +46,8 @@ vmap <silent> <leader>m y<C-j><Esc> p
 " Close every window and save
 nmap <silent> <leader>ss :wqall <CR>
 nmap <silent> <leader>q :qa! <CR>
+nmap <silent> ,s :w <CR>
+nmap <silent> ,q :q <CR>
 
 " ALternate up and down with insertion
 imap <silent> ,k <Esc> <C-w>k i
