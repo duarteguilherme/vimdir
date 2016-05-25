@@ -26,6 +26,10 @@ map <C-l> <C-W>l
 "
 " "Theme
 "
+"set background=dark
+colorscheme monokai
+
+
 nnoremap <silent> <F5> :!clear;python %<CR>
 
 " Shortcuts for opening Conque
@@ -69,9 +73,9 @@ imap !libra library(dplyr)<CR>library(tidyr)<CR>library(readr)<CR>library(ggplot
 imap !paste `%p%` <- function(e1,e2) {<CR>    return(paste0(e1,e2))<CR>}<CR>
 
 " Configuring copy and paste beyond vi
-nnoremap <leader>y "+y
-nnoremap <leader>P "+P
-nnoremap <leader>p "+p
+nnoremap ,y "+y
+nnoremap ,P "+P
+nnoremap ,p "+p
 
 
 "Configure Vundle
