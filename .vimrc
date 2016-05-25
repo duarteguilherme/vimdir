@@ -89,6 +89,7 @@ call vundle#begin()
 "
 "need this to install Vundle
 Plugin 'gmarik/Vundle.vim'
+Plugin 'https://github.com/lervag/vimtex'
 "        " ---- Plugins ----
 Plugin 'https://github.com/lrvick/Conque-Shell/'
 Plugin 'https://github.com/scrooloose/nerdtree'
