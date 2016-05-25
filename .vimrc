@@ -68,6 +68,12 @@ nnoremap <C-m>mm :sp ~/.vimrc <CR>
 imap !libra library(dplyr)<CR>library(tidyr)<CR>library(readr)<CR>library(ggplot2)<CR>
 imap !paste `%p%` <- function(e1,e2) {<CR>    return(paste0(e1,e2))<CR>}<CR>
 
+" Configuring copy and paste beyond vi
+nnoremap <leader>y "+y
+nnoremap <leader>P "+P
+nnoremap <leader>p "+p
+
+
 "Configure Vundle
 set nocompatible
 "filetype off
