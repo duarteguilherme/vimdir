@@ -99,4 +99,4 @@ Plugin 'https://github.com/davidhalter/jedi-vim'
 Plugin 'https://github.com/ervandew/supertab'
 call vundle#end()
 
-autocmd VimEnter * NERDTreeToggle 
+"autocmd VimEnter * NERDTreeToggle 
