@@ -91,7 +91,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 "        " ---- Plugins ----
 Plugin 'https://github.com/lrvick/Conque-Shell/'
-Plugin 'https://github.com/scrooloose/nerdtree'
+"Plugin 'https://github.com/scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'https://github.com/davidhalter/jedi-vim'
 Plugin 'https://github.com/ervandew/supertab'
